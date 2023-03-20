@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SingleSelectionFragment">
+
+    <LinearLayout
+        android:visibility="visible"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:background="@drawable/rectangle_white_mid"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:id="@+id/select_player_and_machine"
+            style="@style/LinearPlayersMenu"
+            android:gravity="top|center">
+
+            <TextView
+                style="@style/TextViewPlayersMenu"
+                android:text="@string/player"
+                android:labelFor="@+id/namePlayer"/>
+
+            <EditText
+                android:id="@+id/name_player"
+                style="@style/EditTextPlayersMenu"/>
+
+        </LinearLayout>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/machine_play"
+            style="@style/button_next_in_selection"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <LinearLayout
+                style="@style/LinearDifficulty"
+                android:gravity="top|center">
+
+                <RadioGroup
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <RadioButton
+                        android:id="@+id/button_machine_difficulty_easy"
+                        style="@style/button_machine_difficulty"
+                        android:text="@string/easy"
+                        android:background="@drawable/radio_button"/>
+
+                    <RadioButton
+                        android:id="@+id/button_machine_difficulty_medium"
+                        style="@style/button_machine_difficulty"
+                        android:text="@string/medium"
+                        android:background="@drawable/radio_button"/>
+
+                    <RadioButton
+                        android:id="@+id/button_machine_difficulty_hard"
+                        style="@style/button_machine_difficulty"
+                        android:layout_marginBottom="0dp"
+                        android:text="@string/hard"
+                        android:background="@drawable/radio_button"
+                        android:checked="true"/>
+
+                </RadioGroup>
+            </LinearLayout>
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:layout_marginBottom="10dp"
+            android:textAlignment="center"
+            android:text="@string/best_of_3"
+            android:textColor="@color/gray"
+            android:textSize="18dp"/>
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

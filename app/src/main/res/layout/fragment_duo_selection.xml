@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DuoSelectionFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/rectangle_white_mid"
+        android:gravity="center"
+        android:orientation="vertical"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:id="@+id/select_player_o"
+            style="@style/LinearPlayersMenu"
+            android:gravity="top|center">
+
+            <TextView
+                style="@style/TextViewPlayersMenu"
+                android:labelFor="@id/name_player_O"
+                android:text="@string/player_1" />
+
+            <EditText
+                android:id="@+id/name_player_O"
+                style="@style/EditTextPlayersMenu" />
+
+        </LinearLayout>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/select_play"
+            style="@style/button_next_in_selection" />
+
+        <LinearLayout
+            android:id="@+id/select_player_x"
+            style="@style/LinearPlayersMenu"
+            android:gravity="top|center">
+
+            <TextView
+                style="@style/TextViewPlayersMenu"
+                android:labelFor="@id/name_player_x"
+                android:text="@string/player_2" />
+
+            <EditText
+                android:id="@+id/name_player_x"
+                style="@style/EditTextPlayersMenu" />
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:textAlignment="center"
+            android:text="@string/best_of_3"
+            android:textColor="@color/gray"
+            android:textSize="18dp"/>
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

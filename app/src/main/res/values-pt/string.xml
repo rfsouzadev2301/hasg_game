@@ -1,0 +1,40 @@
+<resources>
+    <string name="app_name">Hash Game</string>
+    <string name="background">BackGround</string>
+    <string name="play">Jogar</string>
+    <string name="next">Próximo</string>
+    <string name="player_o">Jogador O</string>
+    <string name="player_x">Jogador X</string>
+    <string name="player_1">Jogador 1</string>
+    <string name="player_2">Jogador 2</string>
+    <string name="your_nickname">SEU NOME</string>
+    <string name="best_of_3">Melhor de 3</string>
+
+    <string name="player">Jogador</string>
+    <string name="machine">Máquina</string>
+    <string name="vs">vs</string>
+    <string name="difficulty">Dificuldade</string>
+    <string name="easy">Facíl</string>
+    <string name="medium">Médio</string>
+    <string name="hard">Difícil</string>
+
+    <string name="turn">Turno</string>
+    <string name="image_board">Imagem do tabuleiro</string>
+    <string name="piece_of_turn">Peça do turno</string>
+    <string name="restart">Reiniciar</string>
+    <string name="winner">Vencedor</string>
+    <string name="loser">Perdedor</string>
+    <string name="velha">Velha</string>
+    <string name="line_winner">Linha vencedora</string>
+
+    <string name="which_piece_do_you_want_to_restart_with">Com qual peça você deseja reiniciar?</string>
+    <string name="which_piece_do_you_want_to_play_with">Com qual peça você deseja jogar?</string>
+    <string name="exit">Sair</string>
+    <string name="start_quickly">Começar rapidamente</string>
+    <string name="next_round_on">Próxima rodada em:</string>
+
+    <string name="double_tap_to_exit">Toque duplo para sair</string>
+    <string name="single">Solo</string>
+    <string name="duo">Dupla</string>
+
+</resources>

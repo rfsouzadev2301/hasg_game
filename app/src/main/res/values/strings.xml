@@ -1,0 +1,44 @@
+<resources>
+    <string name="adBanner_footer_in_game" translatable="false">a-app-pub-9154172342545553/4553235322</string>
+    <string name="adBanner_before_after_game" translatable="false">a-app-pub-9154172342545553/9466482780</string>
+    <string name="adInterstitial" translatable="false">a-app-pub-9154172342545553/1796662742</string>
+
+    <string name="app_name">Hash Game</string>
+    <string name="background">BackGround</string>
+    <string name="play">Play</string>
+    <string name="next">Next</string>
+    <string name="player_o">Player O</string>
+    <string name="player_x">Player X</string>
+    <string name="player_1">Player 1</string>
+    <string name="player_2">Player 2</string>
+    <string name="your_nickname">YOUR NICKNAME</string>
+    <string name="best_of_3">Best of 3</string>
+
+    <string name="player">Player</string>
+    <string name="machine">Machine</string>
+    <string name="vs">VS</string>
+    <string name="difficulty">Difficulty</string>
+    <string name="easy">Easy</string>
+    <string name="medium">Medium</string>
+    <string name="hard">Hard</string>
+
+    <string name="turn">Turn</string>
+    <string name="image_board"></string>
+    <string name="piece_of_turn">Piece of turn</string>
+    <string name="restart">restart</string>
+    <string name="winner">Winner</string>
+    <string name="loser">Loser</string>
+    <string name="velha">Velha</string>
+    <string name="line_winner">Line winner</string>
+
+    <string name="which_piece_do_you_want_to_restart_with">Which piece do you want to restart with?</string>
+    <string name="which_piece_do_you_want_to_play_with">Which piece do you want to play with?</string>
+    <string name="exit">Exit</string>
+    <string name="start_quickly">Start quickly</string>
+    <string name="next_round_on">Next round on:</string>
+
+    <string name="double_tap_to_exit">Double tap to exit</string>
+    <string name="single">Single</string>
+    <string name="duo">Duo</string>
+
+</resources>
